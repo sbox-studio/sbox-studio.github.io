@@ -1,13 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-95 -110 190 220"
      width="160" height="160"
      style="
+       --fill:#ececec;
        --fill-top:#039040; --fill-left:#039040; --fill-right:#ececec;
        --stroke-top:#039040; --stroke-left:#039040; --stroke-right:#039040;
        --stroke-width:15;
      ">
 
   <polygon
-    points="0,-100 86.6025,-50 0,0 -86.6025,-50"
+    points="0,-80 70,-40 70,40 0,80 -70,40 -70,-40"
+    fill="var(--fill,#ececec)"
+    stroke="var(--fill,#ececec)"
+    stroke-width="40"
+    stroke-linejoin="round"
+  />
+  
+  <polygon
+    points="0,-80 70,-40 0,0 -70,-40"
     fill="var(--fill-top,#e0e0e0)"
     stroke="var(--stroke-top,currentColor)"
     stroke-width="var(--stroke-width,1.5)"
@@ -15,7 +24,7 @@
   />
 
   <polygon
-    points="86.6025,-50 86.6025,50 0,100 0,0"
+    points="70,-40 70,40 0,80 0,0"
     fill="var(--fill-right,#d0d0d0)"
     stroke="var(--stroke-right,currentColor)"
     stroke-width="var(--stroke-width,1.5)"
@@ -23,10 +32,11 @@
   />
 
   <polygon
-    points="-86.6025,-50 0,0 0,100 -86.6025,50"
+    points="-70,-40 0,0 0,80 -70,40"
     fill="var(--fill-left,#c8c8c8)"
     stroke="var(--stroke-left,currentColor)"
     stroke-width="var(--stroke-width,1.5)"
     stroke-linejoin="round"
   />
+
 </svg>

@@ -7,7 +7,7 @@
      ">
 
   <polygon
-    points="0,-100 86.6025,-50 0,0 -86.6025,-50"
+    points="0,-80 70,-40 0,0 -70,-40"
     fill="var(--fill-top,#e0e0e0)"
     stroke="var(--stroke-top,currentColor)"
     stroke-width="var(--stroke-width,1.5)"
@@ -15,7 +15,7 @@
   />
 
   <polygon
-    points="86.6025,-50 86.6025,50 0,100 0,0"
+    points="70,-40 70,40 0,80 0,0"
     fill="var(--fill-right,#d0d0d0)"
     stroke="var(--stroke-right,currentColor)"
     stroke-width="var(--stroke-width,1.5)"
@@ -23,7 +23,7 @@
   />
 
   <polygon
-    points="-86.6025,-50 0,0 0,100 -86.6025,50"
+    points="-70,-40 0,0 0,80 -70,40"
     fill="var(--fill-left,#c8c8c8)"
     stroke="var(--stroke-left,currentColor)"
     stroke-width="var(--stroke-width,1.5)"

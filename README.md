@@ -1,1 +1,1 @@
-![](/outlined.svg)
+![](/logo.svg)
